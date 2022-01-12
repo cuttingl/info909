@@ -11,5 +11,5 @@ exports.mul = (num1, num2) => {
 }
 
 exports.div = (num1, num2) => {
-    return (num1 / num2).toString();
+    return (num == 0 ) ? (num1 / num2).toString() : 'NaN';
 }
